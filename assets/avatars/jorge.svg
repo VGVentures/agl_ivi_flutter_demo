@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <clipPath id="crop"><circle cx="60" cy="60" r="60"/></clipPath>
+  </defs>
+  <g clip-path="url(#crop)">
+    <!-- neck, then shoulders over it so the jaw sits in front of the collar -->
+    <path d="M50 62h20v26a10 10 0 0 1-20 0z" fill="#E8B98F"/>
+    <path d="M50 70c6 5 14 5 20 0v-8H50z" fill="#CE9A6E"/>
+    <ellipse cx="60" cy="142" rx="54" ry="54" fill="#2F5FA8"/>
+    <path d="M47 88 60 106 73 88 66 84H54z" fill="#E8B98F"/>
+    <path d="M47 88 40 92l6 28h28l6-28-7-4-12 18z" fill="#3A72C4"/>
+    <!-- head -->
+    <ellipse cx="36" cy="50" rx="4.5" ry="6.5" fill="#E8B98F"/>
+    <ellipse cx="84" cy="50" rx="4.5" ry="6.5" fill="#E8B98F"/>
+    <ellipse cx="60" cy="48" rx="24" ry="28" fill="#E8B98F"/>
+    <!-- hair: a mass behind the skull and a fringe across the forehead -->
+    <ellipse cx="60" cy="42" rx="26" ry="25" fill="#2E2420"/>
+    <ellipse cx="60" cy="52" rx="24" ry="24" fill="#E8B98F"/>
+    <path d="M36 46c1-17 10-27 24-27s23 10 24 27c-4-9-12-13-24-13s-20 4-24 13z" fill="#2E2420"/>
+    <!-- features -->
+    <path d="M47 44h9M64 44h9" stroke="#241C19" stroke-width="2.6" stroke-linecap="round"/>
+    <ellipse cx="51" cy="53" rx="3" ry="3.4" fill="#332722"/>
+    <ellipse cx="69" cy="53" rx="3" ry="3.4" fill="#332722"/>
+    <path d="M60 54v8c0 1.6 1.2 2.4 3 2.4" stroke="#CE9A6E" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- close-cropped beard along the jaw, mouth drawn over it -->
+    <path d="M38 54c1 13 6 22 22 22s21-9 22-22c-2 9-9 13-22 13s-20-4-22-13z" fill="#2E2420"/>
+    <path d="M53 70q7 4.5 14 0" stroke="#8C4F44" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

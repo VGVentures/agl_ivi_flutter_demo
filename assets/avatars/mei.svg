@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <clipPath id="crop"><circle cx="60" cy="60" r="60"/></clipPath>
+  </defs>
+  <g clip-path="url(#crop)">
+    <!-- long hair falls behind the shoulders, so it is laid down first -->
+    <path d="M30 52c0-20 13-33 30-33s30 13 30 33v46H74V60H46v38H30z" fill="#1B1A1F"/>
+    <path d="M50 62h20v26a10 10 0 0 1-20 0z" fill="#F0CCAB"/>
+    <path d="M50 70c6 5 14 5 20 0v-8H50z" fill="#DDB28D"/>
+    <ellipse cx="60" cy="142" rx="54" ry="54" fill="#8E3B63"/>
+    <path d="M47 88 60 103 73 88 66 84H54z" fill="#F0CCAB"/>
+    <ellipse cx="36" cy="52" rx="4" ry="6" fill="#F0CCAB"/>
+    <ellipse cx="84" cy="52" rx="4" ry="6" fill="#F0CCAB"/>
+    <ellipse cx="60" cy="49" rx="23" ry="27" fill="#F0CCAB"/>
+    <!-- a centre part: two sweeps meeting above the brow -->
+    <path d="M37 50c0-18 10-29 23-29s23 11 23 29c-1-11-5-17-10-19-6 3-11 4-16 3-9-2-17 4-20 16z" fill="#1B1A1F"/>
+    <path d="M32 44c4 22 4 38 2 54H24c-2-20 0-38 8-54z" fill="#242229"/>
+    <path d="M88 44c-4 22-4 38-2 54h10c2-20 0-38-8-54z" fill="#242229"/>
+    <path d="M47 47h10M63 47h10" stroke="#1B1A1F" stroke-width="2.6" stroke-linecap="round"/>
+    <ellipse cx="51" cy="54" rx="3" ry="3.2" fill="#2B2226"/>
+    <ellipse cx="69" cy="54" rx="3" ry="3.2" fill="#2B2226"/>
+    <path d="M60 56v6c0 1.6 1.2 2.4 3 2.4" stroke="#DDB28D" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M54 70q6 4 12 0" stroke="#B0596A" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

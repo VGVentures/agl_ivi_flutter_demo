@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <clipPath id="crop"><circle cx="60" cy="60" r="60"/></clipPath>
+  </defs>
+  <g clip-path="url(#crop)">
+    <path d="M50 62h20v26a10 10 0 0 1-20 0z" fill="#F4D6BD"/>
+    <path d="M50 70c6 5 14 5 20 0v-8H50z" fill="#E0BB9C"/>
+    <ellipse cx="60" cy="142" rx="54" ry="54" fill="#4A5C6A"/>
+    <!-- a crew neck rather than a collar: the same face reads differently under one -->
+    <path d="M42 90c-4 2-6 6-6 10v20h48v-20c0-4-2-8-6-10l-6-2a18 18 0 0 1-24 0z" fill="#5C7182"/>
+    <path d="M46 86a18 18 0 0 0 28 0l-4-2H50z" fill="#3C4C58"/>
+    <ellipse cx="36" cy="50" rx="4.5" ry="6.5" fill="#F4D6BD"/>
+    <ellipse cx="84" cy="50" rx="4.5" ry="6.5" fill="#F4D6BD"/>
+    <ellipse cx="60" cy="48" rx="24" ry="28" fill="#F4D6BD"/>
+    <!-- swept to one side, so the parting sits off centre -->
+    <ellipse cx="60" cy="42" rx="26" ry="25" fill="#D9B26A"/>
+    <ellipse cx="60" cy="53" rx="24" ry="24" fill="#F4D6BD"/>
+    <path d="M36 48c1-18 10-29 24-29s23 11 24 29c-3-11-8-16-14-17-4 5-13 9-24 8-5 0-8 3-10 9z" fill="#D9B26A"/>
+    <path d="M46 45h11M63 45h11" stroke="#BE9752" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="51" cy="53" rx="3" ry="3.4" fill="#3E5A6B"/>
+    <ellipse cx="69" cy="53" rx="3" ry="3.4" fill="#3E5A6B"/>
+    <path d="M60 54v8c0 1.6 1.2 2.4 3 2.4" stroke="#E0BB9C" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M39 56c2 12 8 20 21 20s19-8 21-20c-2 8-9 12-21 12s-19-4-21-12z" fill="#B98F49"/>
+    <path d="M53 70q7 4.5 14 0" stroke="#A96B58" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

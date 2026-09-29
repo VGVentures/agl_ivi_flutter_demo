@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <clipPath id="crop"><circle cx="60" cy="60" r="60"/></clipPath>
+  </defs>
+  <g clip-path="url(#crop)">
+    <path d="M50 62h20v26a10 10 0 0 1-20 0z" fill="#7E5133"/>
+    <path d="M50 70c6 5 14 5 20 0v-8H50z" fill="#664026"/>
+    <ellipse cx="60" cy="142" rx="54" ry="54" fill="#2B2F36"/>
+    <path d="M47 88 60 104 73 88 66 84H54z" fill="#7E5133"/>
+    <path d="M42 90c-4 2-6 6-6 10v20h48v-20c0-4-2-8-6-10l-4-2-14 18-14-18z" fill="#C0392B"/>
+    <ellipse cx="36" cy="50" rx="4.5" ry="6.5" fill="#7E5133"/>
+    <ellipse cx="84" cy="50" rx="4.5" ry="6.5" fill="#7E5133"/>
+    <ellipse cx="60" cy="48" rx="24" ry="28" fill="#7E5133"/>
+    <!-- close-cropped hair: a low, even line across the forehead -->
+    <path d="M35 48c0-18 11-29 25-29s25 11 25 29c-2-12-11-19-25-19s-23 7-25 19z" fill="#1C1310"/>
+    <path d="M46 46h11M63 46h11" stroke="#140D0B" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="51" cy="53" rx="3" ry="3.4" fill="#2A1A12"/>
+    <ellipse cx="69" cy="53" rx="3" ry="3.4" fill="#2A1A12"/>
+    <path d="M60 55v7c0 1.6 1.2 2.4 3 2.4" stroke="#664026" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M53 70q7 4.5 14 0" stroke="#4E2C20" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

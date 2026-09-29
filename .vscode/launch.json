@@ -1,0 +1,39 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch (Linux)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "-d",
+        "linux",
+        "--enable-flutter-gpu"
+      ]
+    },
+    {
+      "name": "Launch (macOS)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "-d",
+        "macos",
+        "--enable-flutter-gpu",
+        "--flavor",
+        "development"
+      ]
+    },
+    {
+      "name": "Deploy + Run on Pi5",
+      "request": "launch",
+      "type": "node-terminal",
+      "command": "echo Deployed",
+      "preLaunchTask": "Restart Pi Kiosk Service"
+    }
+  ]
+}

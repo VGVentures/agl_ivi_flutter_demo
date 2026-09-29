@@ -1,0 +1,16 @@
+name: weather_repository
+description: A Very Good Project created by Very Good CLI.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  equatable: ^2.0.0
+  open_meteo_api:
+    path: ../open_meteo_api
+
+dev_dependencies:
+  very_good_analysis: ^10.3.0
+

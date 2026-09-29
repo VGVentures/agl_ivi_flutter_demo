@@ -1,0 +1,73 @@
+name: agl_ui
+description: AGL UI Design System
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.12.0
+  flutter: ^3.44.0
+
+dependencies:
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.3.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.5
+  very_good_analysis: ^10.3.0
+
+flutter:
+  assets:
+    - assets/boost_gauge.svg
+    - assets/eco_plant.svg
+    - assets/fan.svg
+    - assets/icon_ac_snowflake_24.svg
+    - assets/icon_ac_snowflake_32.svg
+    - assets/icon_airflow_direction.svg
+    - assets/icon_android_auto.svg
+    - assets/icon_battery_half.svg
+    - assets/icon_carplay.svg
+    - assets/icon_climate_sync.svg
+    - assets/icon_fan.svg
+    - assets/icon_home.svg
+    - assets/icon_seat_heat.svg
+    - assets/icon_settings_sliders.svg
+    - assets/icon_shuffle.svg
+    - assets/icon_skip_back.svg
+    - assets/icon_skip_forward.svg
+    - assets/icon_waveform.svg
+    - assets/media_pause.svg
+    - assets/media_play.svg
+    - assets/media_repeat.svg
+    - assets/media_shuffle.svg
+    - assets/media_skip_next.svg
+    - assets/media_skip_previous.svg
+    - assets/seat_recline.svg
+    - assets/cloud_dotted.svg
+    - assets/drive_comfort.svg
+    - assets/drive_custom.svg
+    - assets/drive_snow.svg
+    - assets/drive_sport.svg
+    - assets/cloud_sun_dotted.svg
+    - assets/drizzle_dotted.svg
+    - assets/fog_dotted.svg
+    - assets/rain_dotted.svg
+    - assets/snow_dotted.svg
+    - assets/storm_dotted.svg
+    - assets/sun_dotted.svg
+    - assets/weather_clear.svg
+    - assets/weather_cloudy.svg
+    - assets/weather_drizzle.svg
+    - assets/weather_foggy.svg
+    - assets/weather_partly_cloudy.svg
+    - assets/weather_rainy.svg
+    - assets/weather_snowy.svg
+    - assets/weather_stormy.svg
+  fonts:
+    - family: Geist Mono
+      fonts:
+        - asset: assets/fonts/GeistMono-Regular.ttf
